@@ -1,0 +1,70 @@
+.navbar {
+    background-color: #283593;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .nav-title {
+    font-size: 1.5rem; 
+  }
+  
+  .nav-logout {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .todo-container {
+    max-width: 500px;
+    margin: 0 auto;  
+    padding: 20px;
+    position: relative;
+    height: 80vh;
+  }
+  
+  .todo-list {
+    max-height: 100%;
+    overflow-y: auto;  
+  }
+  
+  .add-todo-btn {
+    position: absolute;
+    bottom: -50px; 
+    left: 20px;
+    right: 20px;  
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: #3949AB;
+    color: white;
+    cursor: pointer;   
+  }
+
+  .modal-button-regular
+  {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+  }
+
+  .modal-button-cancel
+  {
+    background-color: #BDBDBD;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+  }
